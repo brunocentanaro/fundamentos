@@ -1,6 +1,6 @@
-;Id_saga;nombre_saga;id_pel;nombre_pel;fechaEstreno_pel;presupuesto_pel;nombre_plataf;ext_plataf;condicionesUso_plataf;id_persona;e-mail_persona;nombre_persona;id_serie;codigo_temporada;nro_epis;nombre_epis;duracion_epis;id_serie;nombre_serie;fechaEstreno_serie
-R1;A1;A2;a3;a4;A5;A6;a7;a8;A9;A11;a12;a13;a14;a15;A16;a17;a18;a19;a110;A111
-R2;b21;B22;b23;b24;b25;b26;B27;B28;B29;b1;B2;B3;b4;b6;b7;B8;b9;B10;b11;B12
-Aplicando dep func;;;;;;;;;;;;;;;;;;;;
-R1;A1;A2;a3;a4;A5;A6;a7;a8;A9;A11;a12;a13;a14;a15;A16;a17;a18;a19;a110;A111
-R2;b21;B22;A3;b24;b25;b26;B27;B28;B29;b1;B2;B3;b4;b6;b7;B8;b9;B10;b11;B12
+;Id_saga;nombre_saga;id_pel;nombre_pel;fechaEstreno_pel;presupuesto_pel;nombre_plataf;ext_plataf;condicionesUso_plataf;id_persona;e-mail_persona;nombre_persona;id_serie;codigo_temporada;nro_epis;nombre_epis;duracion_epis;id_serie;nombre_serie;fechaEstreno_serie;fecha_calificacion;cant_estrellas_calif;comentario_calif
+R1;A1;A2;a3;a4;A5;A6;a7;a8;A9;B1-10;B1-11;b1-12;B1-13;b1-14;1-15;b1-16;B1-17;b1-18;B1-19;b1-20;b1-21;B1-22;B1-23
+R2;B2-1;B2-2;B2-3;B2-4;B2-5;b2-6;B2-7;b2-8;b2-9;A10;a11;a12;A13;a14;a15;A16;A17;a18;A19;A20;b2-21;b2-22;B2-23
+Aplicando dep func;;;;;;;;;;;;;;;;;;;;;;;
+R1;A1;A2;a3;a4;A5;A6;a7;a8;A9;B1-10;B1-11;b1-12;B1-13;b1-14;1-15;b1-16;B1-17;b1-18;B1-19;b1-20;b1-21;B1-22;B1-23
+R2;B2-1;B2-2;B2-3;B2-4;B2-5;b2-6;B2-7;b2-8;b2-9;A10;a11;a12;A13;a14;a15;A16;A17;a18;A19;A20;b2-21;b2-22;B2-23
