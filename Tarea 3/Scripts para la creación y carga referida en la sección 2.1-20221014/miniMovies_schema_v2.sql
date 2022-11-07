@@ -18,16 +18,15 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
-DROP DATABASE minimovies;
+-- DROP DATABASE minimovies;
 --
 -- TOC entry 3613 (class 1262 OID 16541)
 -- Name: minimovies; Type: DATABASE; Schema: -; Owner: postgres
 --
 
-CREATE DATABASE minimovies ENCODING = 'UTF8'; -- LOCALE = 'C';
+-- CREATE DATABASE minimovies ENCODING = 'UTF8'; -- LOCALE = 'C';
 
-
-\connect minimovies
+-- \connect minimovies
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -64,7 +63,7 @@ CREATE TABLE public.peliculas (
 );
 
 
-ALTER TABLE public.peliculas OWNER TO postgres;
+-- ALTER TABLE public.peliculas OWNER TO postgres;
 
 -- Create table calificaciones_peliculas(
 --    email_persona,
@@ -88,7 +87,7 @@ CREATE TABLE public.calificaciones_peliculas (
 );
 
 
-ALTER TABLE public.calificaciones_peliculas OWNER TO postgres;
+-- ALTER TABLE public.calificaciones_peliculas OWNER TO postgres;
 
 -- Create table personas_trabaja_episodios(
 --    id_persona,
@@ -120,7 +119,7 @@ CREATE TABLE public.personas_trabaja_episodios (
 );
 
 
-ALTER TABLE public.personas_trabaja_episodios OWNER TO postgres;
+-- ALTER TABLE public.personas_trabaja_episodios OWNER TO postgres;
 
 --
 -- PostgreSQL database dump complete

@@ -1,0 +1,47 @@
+• id_saga → nombre_saga
+• id_pel → nombre_pel
+• id_pel → fechaEstreno_pel
+• id_pel → presupuesto_pel
+• nombre_plataf, ext_plataf → condicionesUso_plataf
+• id_pers → nombre_pers
+• id_pers → e−mail_pers
+• id_pers → fechaNac-pers
+• email_pers → id_pers
+• email_pers → nombre_Pers
+• email_pers → fechaNac_pers
+• id_serie, codigo_tempor, nro epis → nombre_epis
+• id_serie, codigo_tempor, nro epis → duracion_epis
+• id_serie → nombre serie
+• id_serie → fechaEstreno_serie
+• id_pel, id_pers, nombre_plataf, ext_plataf, fecha_calif → cant_estrellas_calif
+• id_pel, id_pers, nombre_plataf, ext_plataf, fecha_calif → comentario_calif
+
+--> Sacando redundancias
+
+• id_saga → nombre_saga
+• id_pel → nombre_pel
+• id_pel → fechaEstreno_pel
+• id_pel → presupuesto_pel
+• nombre_plataf, ext_plataf → condicionesUso_plataf
+• id_pers → nombre_pers
+• id_pers → e−mail_pers
+• id_pers → fechaNac-pers
+• email_pers → id_pers
+• id_serie, codigo_tempor, nro epis → nombre_epis
+• id_serie, codigo_tempor, nro epis → duracion_epis
+• id_serie → nombre serie
+• id_serie → fechaEstreno_serie
+• id_pel, id_pers, nombre_plataf, ext_plataf, fecha_calif → cant_estrellas_calif
+• id_pel, id_pers, nombre_plataf, ext_plataf, fecha_calif → comentario_calif
+
+--> nuevas tablas
+
+R1(id_saga, nombre_saga)
+R2(id_pel, nombre_pel, fechaEstreno_pel, presupuesto_pel)
+R3(nombre_plataf, ext_plataf, condicionesUso_plataf)
+R4(id_pers, nombre_pers, email_pers, fechaNac_pers)
+
+
+
+
+

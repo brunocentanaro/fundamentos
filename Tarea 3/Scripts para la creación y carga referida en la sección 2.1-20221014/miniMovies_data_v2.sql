@@ -1,4 +1,5 @@
-\connect minimovies
+
+-- \connect minimovies
 
 -- INSERT peliculas -----------------------------------------------
 
@@ -115,8 +116,6 @@ INSERT INTO public.calificaciones_peliculas(
 INSERT INTO public.calificaciones_peliculas(
 	email_persona, nombre_plataf, ext_plataf, condicionesuso_plataf, nombre_pelicula, fecha_calif, cant_estrellas_calif, comentario_calif)
 	VALUES ('jeanluc.ponti@gmail.com', 'Netflix', 'fr', 'Condiciones de uso GENERICAS', 'Paullete', '2000-07-02', 40, 'Excelente');
-	
---
 
 INSERT INTO public.calificaciones_peliculas(
 	email_persona, nombre_plataf, ext_plataf, condicionesuso_plataf, nombre_pelicula, fecha_calif, cant_estrellas_calif, comentario_calif)
@@ -134,8 +133,6 @@ INSERT INTO public.calificaciones_peliculas(
 	email_persona, nombre_plataf, ext_plataf, condicionesuso_plataf, nombre_pelicula, fecha_calif, cant_estrellas_calif, comentario_calif)
 	VALUES ('king.crimson@gmail.com', 'BritBox', 'co.uk', null, 'Trainspotting', '2000-07-02', 40, 'Excelente');
 
---
-	
 INSERT INTO public.calificaciones_peliculas(
 	email_persona, nombre_plataf, ext_plataf, condicionesuso_plataf, nombre_pelicula, fecha_calif, cant_estrellas_calif, comentario_calif)
 	VALUES ('pitufo.lombardo@vera.com.uy', '+Cinemateca', 'org.uy', 'Condiciones de uso CINEMATECA UY', 'El Bano del Papa', '2000-07-02', 40, 'Excelente');
@@ -176,7 +173,7 @@ INSERT INTO public.calificaciones_peliculas(
 	email_persona, nombre_plataf, ext_plataf, condicionesuso_plataf, nombre_pelicula, fecha_calif, cant_estrellas_calif, comentario_calif)
 	VALUES ('rodri21@gmail.com', 'Netflix', 'uy', 'Condiciones de uso NETFLIX UY', 'The Big Lebowski', '2016-08-02', 5, 'Muy buena pelicula');
     
-    -- INSERT personas_trabaja_episodios -----------------------------------------------
+-- INSERT personas_trabaja_episodios -----------------------------------------------
 
 INSERT INTO public.personas_trabaja_episodios(
 	id_persona, email_persona, nombre_persona, fechanac_persona, nro_episodio, nombre_episodio, duracion_episodio, roles_personaenepisodio, codigo_temporada, id_serie, nombre_serie, fechaestreno_serie)
@@ -193,7 +190,6 @@ INSERT INTO public.personas_trabaja_episodios(
 INSERT INTO public.personas_trabaja_episodios(
 	id_persona, email_persona, nombre_persona, fechanac_persona, nro_episodio, nombre_episodio, duracion_episodio, roles_personaenepisodio, codigo_temporada, id_serie, nombre_serie, fechaestreno_serie)
 	VALUES (2173, 'juan43@gmail.com', 'Juan Jose Ghonix', '1971-08-13', 5, 'El fin', 120, 'actor', 3, 54, 'La venganza Letal', '2000-05-03');
-	
 	
 INSERT INTO public.personas_trabaja_episodios(
 	id_persona, email_persona, nombre_persona, fechanac_persona, nro_episodio, nombre_episodio, duracion_episodio, roles_personaenepisodio, codigo_temporada, id_serie, nombre_serie, fechaestreno_serie)
@@ -213,7 +209,11 @@ INSERT INTO public.personas_trabaja_episodios(
 	
 INSERT INTO public.personas_trabaja_episodios(
 	id_persona, email_persona, nombre_persona, fechanac_persona, nro_episodio, nombre_episodio, duracion_episodio, roles_personaenepisodio, codigo_temporada, id_serie, nombre_serie, fechaestreno_serie)
-	VALUES (2185, 'jjg1@gmail.com', 'Juan Jose Gonzalez', '1977-08-13', 3, 'No te detengas', 60, 'director, actor', 4, 50, 'Siempre bella', '2010-05-03');
+	VALUES (2185, 'jjg1@gmail.com', 'Juan Jose Gonzalez', '1977-08-13', 3, 'No te detengas', 60, 'director', 4, 50, 'Siempre bella', '2010-05-03');
+
+INSERT INTO public.personas_trabaja_episodios(
+	id_persona, email_persona, nombre_persona, fechanac_persona, nro_episodio, nombre_episodio, duracion_episodio, roles_personaenepisodio, codigo_temporada, id_serie, nombre_serie, fechaestreno_serie)
+	VALUES (2185, 'jjg1@gmail.com', 'Juan Jose Gonzalez', '1977-08-13', 3, 'No te detengas', 60, 'actor', 4, 50, 'Siempre bella', '2010-05-03');
 	
 INSERT INTO public.personas_trabaja_episodios(
 	id_persona, email_persona, nombre_persona, fechanac_persona, nro_episodio, nombre_episodio, duracion_episodio, roles_personaenepisodio, codigo_temporada, id_serie, nombre_serie, fechaestreno_serie)
